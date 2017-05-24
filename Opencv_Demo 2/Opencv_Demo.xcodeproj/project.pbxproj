@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72AC0EB81ED52AE00024FCF6 /* AbstractOCVViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 72AC0EB71ED52AE00024FCF6 /* AbstractOCVViewController.mm */; };
+		F68D3C671D2206ED0085DF0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F68D3C661D2206ED0085DF0B /* main.m */; };
+		F68D3C6A1D2206ED0085DF0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F68D3C691D2206ED0085DF0B /* AppDelegate.m */; };
+		F68D3C6D1D2206ED0085DF0B /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = F68D3C6C1D2206ED0085DF0B /* ViewController.mm */; };
+		F68D3C701D2206ED0085DF0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F68D3C6E1D2206ED0085DF0B /* Main.storyboard */; };
+		F68D3C731D2206ED0085DF0B /* Opencv_Demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F68D3C711D2206ED0085DF0B /* Opencv_Demo.xcdatamodeld */; };
+		F68D3C751D2206ED0085DF0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F68D3C741D2206ED0085DF0B /* Assets.xcassets */; };
+		F68D3C781D2206ED0085DF0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F68D3C761D2206ED0085DF0B /* LaunchScreen.storyboard */; };
+		F68D3C801D2207090085DF0B /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F68D3C7F1D2207090085DF0B /* Accelerate.framework */; };
+		F68D3C821D2207110085DF0B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F68D3C811D2207110085DF0B /* AVFoundation.framework */; };
+		F68D3C841D22071F0085DF0B /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F68D3C831D22071F0085DF0B /* CoreImage.framework */; };
+		F68D3C861D22072A0085DF0B /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F68D3C851D22072A0085DF0B /* CoreMedia.framework */; };
+		F68D3C881D22075F0085DF0B /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F68D3C871D22075F0085DF0B /* AssetsLibrary.framework */; };
+		F68D3C8A1D22077A0085DF0B /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F68D3C891D22077A0085DF0B /* CoreVideo.framework */; };
+		F68D3C8C1D22078B0085DF0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F68D3C8B1D22078B0085DF0B /* Foundation.framework */; };
+		F68D3C8E1D2207980085DF0B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F68D3C8D1D2207980085DF0B /* UIKit.framework */; };
+		F68D3C901D2207C50085DF0B /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F68D3C8F1D2207C50085DF0B /* opencv2.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		72AC0EB61ED52AE00024FCF6 /* AbstractOCVViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractOCVViewController.h; sourceTree = "<group>"; };
+		72AC0EB71ED52AE00024FCF6 /* AbstractOCVViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AbstractOCVViewController.mm; sourceTree = "<group>"; };
+		F68D3C621D2206ED0085DF0B /* Opencv_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Opencv_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F68D3C661D2206ED0085DF0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F68D3C681D2206ED0085DF0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F68D3C691D2206ED0085DF0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F68D3C6B1D2206ED0085DF0B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F68D3C6C1D2206ED0085DF0B /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		F68D3C6F1D2206ED0085DF0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F68D3C721D2206ED0085DF0B /* Opencv_Demo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Opencv_Demo.xcdatamodel; sourceTree = "<group>"; };
+		F68D3C741D2206ED0085DF0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F68D3C771D2206ED0085DF0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F68D3C791D2206ED0085DF0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F68D3C7F1D2207090085DF0B /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		F68D3C811D2207110085DF0B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F68D3C831D22071F0085DF0B /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		F68D3C851D22072A0085DF0B /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		F68D3C871D22075F0085DF0B /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		F68D3C891D22077A0085DF0B /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		F68D3C8B1D22078B0085DF0B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F68D3C8D1D2207980085DF0B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F68D3C8F1D2207C50085DF0B /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F68D3C5F1D2206ED0085DF0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F68D3C8E1D2207980085DF0B /* UIKit.framework in Frameworks */,
+				F68D3C8C1D22078B0085DF0B /* Foundation.framework in Frameworks */,
+				F68D3C8A1D22077A0085DF0B /* CoreVideo.framework in Frameworks */,
+				F68D3C901D2207C50085DF0B /* opencv2.framework in Frameworks */,
+				F68D3C881D22075F0085DF0B /* AssetsLibrary.framework in Frameworks */,
+				F68D3C861D22072A0085DF0B /* CoreMedia.framework in Frameworks */,
+				F68D3C841D22071F0085DF0B /* CoreImage.framework in Frameworks */,
+				F68D3C821D2207110085DF0B /* AVFoundation.framework in Frameworks */,
+				F68D3C801D2207090085DF0B /* Accelerate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F68D3C591D2206ED0085DF0B = {
+			isa = PBXGroup;
+			children = (
+				F68D3C8D1D2207980085DF0B /* UIKit.framework */,
+				F68D3C8B1D22078B0085DF0B /* Foundation.framework */,
+				F68D3C891D22077A0085DF0B /* CoreVideo.framework */,
+				F68D3C871D22075F0085DF0B /* AssetsLibrary.framework */,
+				F68D3C851D22072A0085DF0B /* CoreMedia.framework */,
+				F68D3C831D22071F0085DF0B /* CoreImage.framework */,
+				F68D3C811D2207110085DF0B /* AVFoundation.framework */,
+				F68D3C7F1D2207090085DF0B /* Accelerate.framework */,
+				F68D3C641D2206ED0085DF0B /* Opencv_Demo */,
+				F68D3C631D2206ED0085DF0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F68D3C631D2206ED0085DF0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F68D3C621D2206ED0085DF0B /* Opencv_Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F68D3C641D2206ED0085DF0B /* Opencv_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				F68D3C681D2206ED0085DF0B /* AppDelegate.h */,
+				F68D3C691D2206ED0085DF0B /* AppDelegate.m */,
+				F68D3C6B1D2206ED0085DF0B /* ViewController.h */,
+				F68D3C6C1D2206ED0085DF0B /* ViewController.mm */,
+				72AC0EB61ED52AE00024FCF6 /* AbstractOCVViewController.h */,
+				72AC0EB71ED52AE00024FCF6 /* AbstractOCVViewController.mm */,
+				F68D3C8F1D2207C50085DF0B /* opencv2.framework */,
+				F68D3C6E1D2206ED0085DF0B /* Main.storyboard */,
+				F68D3C741D2206ED0085DF0B /* Assets.xcassets */,
+				F68D3C761D2206ED0085DF0B /* LaunchScreen.storyboard */,
+				F68D3C791D2206ED0085DF0B /* Info.plist */,
+				F68D3C711D2206ED0085DF0B /* Opencv_Demo.xcdatamodeld */,
+				F68D3C651D2206ED0085DF0B /* Supporting Files */,
+			);
+			path = Opencv_Demo;
+			sourceTree = "<group>";
+		};
+		F68D3C651D2206ED0085DF0B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F68D3C661D2206ED0085DF0B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F68D3C611D2206ED0085DF0B /* Opencv_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F68D3C7C1D2206ED0085DF0B /* Build configuration list for PBXNativeTarget "Opencv_Demo" */;
+			buildPhases = (
+				F68D3C5E1D2206ED0085DF0B /* Sources */,
+				F68D3C5F1D2206ED0085DF0B /* Frameworks */,
+				F68D3C601D2206ED0085DF0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Opencv_Demo;
+			productName = Opencv_Demo;
+			productReference = F68D3C621D2206ED0085DF0B /* Opencv_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F68D3C5A1D2206ED0085DF0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = jcj;
+				TargetAttributes = {
+					F68D3C611D2206ED0085DF0B = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = KHY5EAPXR3;
+					};
+				};
+			};
+			buildConfigurationList = F68D3C5D1D2206ED0085DF0B /* Build configuration list for PBXProject "Opencv_Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F68D3C591D2206ED0085DF0B;
+			productRefGroup = F68D3C631D2206ED0085DF0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F68D3C611D2206ED0085DF0B /* Opencv_Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F68D3C601D2206ED0085DF0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F68D3C781D2206ED0085DF0B /* LaunchScreen.storyboard in Resources */,
+				F68D3C751D2206ED0085DF0B /* Assets.xcassets in Resources */,
+				F68D3C701D2206ED0085DF0B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F68D3C5E1D2206ED0085DF0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72AC0EB81ED52AE00024FCF6 /* AbstractOCVViewController.mm in Sources */,
+				F68D3C6D1D2206ED0085DF0B /* ViewController.mm in Sources */,
+				F68D3C6A1D2206ED0085DF0B /* AppDelegate.m in Sources */,
+				F68D3C671D2206ED0085DF0B /* main.m in Sources */,
+				F68D3C731D2206ED0085DF0B /* Opencv_Demo.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F68D3C6E1D2206ED0085DF0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F68D3C6F1D2206ED0085DF0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F68D3C761D2206ED0085DF0B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F68D3C771D2206ED0085DF0B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F68D3C7A1D2206ED0085DF0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F68D3C7B1D2206ED0085DF0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F68D3C7D1D2206ED0085DF0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KHY5EAPXR3;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Opencv_Demo",
+				);
+				INFOPLIST_FILE = Opencv_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jianlin.Opencv-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F68D3C7E1D2206ED0085DF0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KHY5EAPXR3;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Opencv_Demo",
+				);
+				INFOPLIST_FILE = Opencv_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jianlin.Opencv-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F68D3C5D1D2206ED0085DF0B /* Build configuration list for PBXProject "Opencv_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F68D3C7A1D2206ED0085DF0B /* Debug */,
+				F68D3C7B1D2206ED0085DF0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F68D3C7C1D2206ED0085DF0B /* Build configuration list for PBXNativeTarget "Opencv_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F68D3C7D1D2206ED0085DF0B /* Debug */,
+				F68D3C7E1D2206ED0085DF0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F68D3C711D2206ED0085DF0B /* Opencv_Demo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F68D3C721D2206ED0085DF0B /* Opencv_Demo.xcdatamodel */,
+			);
+			currentVersion = F68D3C721D2206ED0085DF0B /* Opencv_Demo.xcdatamodel */;
+			path = Opencv_Demo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F68D3C5A1D2206ED0085DF0B /* Project object */;
+}
